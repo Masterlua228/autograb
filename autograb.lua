@@ -3,8 +3,8 @@ local RunService = game:GetService("RunService")
 local Stats = game:GetService("Stats")
 local lp = Players.LocalPlayer
 
-local STEAL_RADIUS = 69999
-local STEAL_DURATION = 1.2    
+local STEAL_RADIUS = 100
+local STEAL_DURATION = 3
 local isStealing = false
 local StealData = {}
 local progressBarBg = nil
